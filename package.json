@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-generator",
+  "version": "1.0.0",
+  "description": "Week 9 Module - Node.js functions and features",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoomzooom6/portfolio-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomzooom6/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/zoomzooom6/portfolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
+}
