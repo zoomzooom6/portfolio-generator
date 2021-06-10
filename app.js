@@ -95,7 +95,7 @@ const promptProject = portfolioData => {
             type: 'input',
             name: 'languages',
             message: 'What did you build this project with? (Check all that apply)', 
-            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+            choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node', 'SQL']
         },
         {
             type: 'input',
@@ -137,7 +137,7 @@ promptUser()
     .then(portfolioData => {
         const pageHTML = generatePage(portfolioData);
 
-        fs.writeFile('./index.html', pageHTML, err => {
+        fs.writeFile('./dist/index.html', pageHTML, err => {
             if (err) throw new Error(err);
         })
     });
